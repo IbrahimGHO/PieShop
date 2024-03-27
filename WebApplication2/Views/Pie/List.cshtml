@@ -1,12 +1,11 @@
 ﻿
-@model WebApplication2.ViewModels.PieListViewModel
 
+@model PieListViewModel
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>Pie Shop</title></head>
-<body>
-    <h1>@Model.CurrentCategory </h1>
-
+@{
+    Layout = "_Layout";
+}
+<h1>@Model.CurrentCategory </h1>
     @foreach (var pie in Model.Pies)
     {
         <div> 
@@ -16,5 +15,4 @@
             <h3>@pie.Category.CategoryName</h3>
         </div>
     }
-</body>
-</html>
+
