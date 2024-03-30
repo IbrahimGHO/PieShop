@@ -11,8 +11,8 @@ using WebApplication2.Models;
 namespace WebApplication2.Migrations
 {
     [DbContext(typeof(BethanysPieShopDbContext))]
-    [Migration("20240328081740_addShoppingCartMigration")]
-    partial class addShoppingCartMigration
+    [Migration("20240329135131_inital")]
+    partial class inital
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

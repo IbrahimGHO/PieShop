@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
+
 
 namespace WebApplication2.Models
 {
@@ -14,5 +16,9 @@ namespace WebApplication2.Models
         public DbSet<Pie> Pies { get; set; }
 
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set;}
+
+        public DbSet<Order> Orders { get; set; }
+
+        public DbSet<OrderDetail> OrderDetails { get; set; } 
     }
 }
