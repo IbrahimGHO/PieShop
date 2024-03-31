@@ -28,6 +28,9 @@ namespace WebApplication2.Models
             return _BethanysPieShopDbContext.Pies.FirstOrDefault(p => p.PieId == id);
         }
 
-
+        public IEnumerable<Pie> searchPies(string searchQuery)
+        {
+            return _BethanysPieShopDbContext.Pies.Where(p => p.Name.Contains(searchQuery) );
+        }
     }
 }
