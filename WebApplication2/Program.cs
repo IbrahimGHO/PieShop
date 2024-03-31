@@ -16,7 +16,7 @@ builder.Services.AddHttpContextAccessor();
 
 
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddRazorPages();
 builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("BethanysPieShopDbContextConnection")));
 
@@ -32,5 +32,8 @@ app.UseDeveloperExceptionPage();
 }
 
 app.MapDefaultControllerRoute();
+
+app.MapRazorPages();
+
 DbInitializr.Seed(app);
 app.Run();
