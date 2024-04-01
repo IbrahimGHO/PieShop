@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System.Security.Cryptography.Xml;
 using System.Text.Json.Serialization;
+using WebApplication2.App;
 using WebApplication2.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,6 +26,8 @@ builder.Services.AddControllersWithViews()
     });
 
 builder.Services.AddRazorPages();
+builder.Services.AddRazorComponents().AddInteractiveServerComponents();
+
 builder.Services.AddDbContext<BethanysPieShopDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("BethanysPieShopDbContextConnection")));
 
@@ -42,9 +45,11 @@ app.UseDeveloperExceptionPage();
 }
 
 app.MapDefaultControllerRoute();
+app.UseAntiforgery();
 
 app.MapRazorPages();
 app.MapControllers();
 
+app.MapRazorComponents<App>().AddInteractiveServerRenderMode();
 DbInitializr.Seed(app);
 app.Run();
