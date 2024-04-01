@@ -12,7 +12,7 @@ using WebApplication2.Models;
 namespace WebApplication2.Migrations
 {
     [DbContext(typeof(BethanysPieShopDbContext))]
-    [Migration("20240401100201_IdAdded")]
+    [Migration("20240401191853_IdAdded")]
     partial class IdAdded
     {
         /// <inheritdoc />

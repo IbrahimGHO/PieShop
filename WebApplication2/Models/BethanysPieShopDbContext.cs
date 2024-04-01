@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace WebApplication2.Models
 {
-    public class BethanysPieShopDbContext : IdentityDbContext 
+    public class BethanysPieShopDbContext : IdentityDbContext<IdentityUser>
     {
         public BethanysPieShopDbContext(DbContextOptions<BethanysPieShopDbContext> options) : base(options) 
         {
