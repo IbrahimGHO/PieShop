@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 using WebApplication2.App;
 using WebApplication2.Models;
+using WebApplication2.Models.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,4 +1,6 @@
-﻿namespace WebApplication2.Models
+﻿using WebApplication2.Models.IRepository;
+
+namespace WebApplication2.Models
 {
     public class CategoryRepository : ICategoryRepository
     {

@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.AspNetCore.Components;
 using WebApplication2.Models;
+using WebApplication2.Models.IRepository;
 
 namespace WebApplication2.App.Pages
 {

@@ -1,6 +1,4 @@
-﻿
-
-namespace WebApplication2.Models
+﻿namespace WebApplication2.Models.IRepository
 {
     public interface IOrderRepository
     {

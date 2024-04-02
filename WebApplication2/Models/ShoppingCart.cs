@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebApplication2.Models.IRepository;
 
 namespace WebApplication2.Models
 {

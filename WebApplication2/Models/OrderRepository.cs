@@ -1,5 +1,7 @@
 ﻿
 
+using WebApplication2.Models.IRepository;
+
 namespace WebApplication2.Models
 {
     public class OrderRepository : IOrderRepository
