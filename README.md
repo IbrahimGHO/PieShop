@@ -43,7 +43,7 @@
 ```sh
  - Make sure to have .NET 8+
  - Make sure to install SQL Server Management Studio
- - Change the appsettings.json default connection string to your own
+ - Change the *** in the appsettings.json to your own connection string
  - in the package manager console enter "add-migration init" then "update-database"
 ```
 
