@@ -44,7 +44,7 @@
  - Make sure to have .NET 8+
  - Make sure to install SQL Server Management Studio
  - Change the appsettings.json default connection string to your own
- - in the package manager console choose the default project as ProductStore.DataAccess then enter "add-migration init" then "update-database"
+ - in the package manager console enter "add-migration init" then "update-database"
 ```
 
 
