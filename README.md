@@ -33,12 +33,8 @@
 ## OrderConfirmation page
 ![OrderConfirmation](assets/9.OrderConfirmation.JPG)
 
-## List All tasks and search 
-![listall]()
 
 
-## About Page
-![about](https://user-images.githubusercontent.com/66013192/216674163-f8b89f21-f985-44d9-a77c-b7ab7fa4129a.png)
 
 
 
