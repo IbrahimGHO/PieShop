@@ -11,14 +11,27 @@
 ### ✨ [Live Demo] 
 ## Home Page
 ![Home](assets/1.Home.JPG)
-## Order Page
-![Order]()
-## Login Page
-![Login]()
-## Regisiter page
-![Regisiter]()
-## Address task
-![Address]()
+## Menu Page
+![Menu](assets/2.Menu.JPG)
+## Search Page
+![Search](assets/3.Search.JPG)
+## Pie Details page
+![Regisiter](assets/4.PieDetails.JPG)
+
+## Cart page
+![Cart](assets/5.Cart.JPG)
+
+## Login page
+![Login](assets/6.Login.JPG)
+
+## Register page
+![Register](assets/7.Register.JPG)
+
+## Checkout page
+![Checkout](assets/8.Checkout.JPG)
+
+## OrderConfirmation page
+![OrderConfirmation](assets/9.OrderConfirmation.JPG)
 
 ## List All tasks and search 
 ![listall]()
@@ -27,29 +40,22 @@
 ## About Page
 ![about](https://user-images.githubusercontent.com/66013192/216674163-f8b89f21-f985-44d9-a77c-b7ab7fa4129a.png)
 
-## Install
+
+
+## Usage & Installs
 
 ```sh
-npm install
+ - Make sure to have .NET 8+
+ - Make sure to install SQL Server Management Studio
+ - Change the appsettings.json default connection string to your own
+ - in the package manager console choose the default project as ProductStore.DataAccess then enter "add-migration init" then "update-database"
 ```
 
-## Usage
 
-```sh
-1- Make sure that the MongoDB Compass server is running on localhost:27017 
-2- run the website by typing "nodemon app.js" in the terminal
-3- Open localhost:3000 in the preferred browser
-```
-
-## Run tests
-
-```sh
-npm run test
-```
 
 ## Author
 
-👤 **Rayan Alshanaiber** , **Abdullah Aldosari** , **Abdulmajeed Alrashoudi** , **Ibrahim Alghofili**
+👤 **Ibrahim Alghofili**
 
 
 ## Show your support
