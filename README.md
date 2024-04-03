@@ -10,7 +10,7 @@
 
 ### ✨ [Live Demo] 
 ## Home Page
-![Home]()
+![Home](assets/1.Home.JPG)
 ## Order Page
 ![Order]()
 ## Login Page
